@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Monteur Vidéo Fortnite</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+        }
+
+        header{
+            text-align:center;
+            padding:80px 20px;
+            background:linear-gradient(135deg,#2563eb,#7c3aed);
+        }
+
+        header h1{
+            font-size:3rem;
+            margin-bottom:10px;
+        }
+
+        header p{
+            max-width:600px;
+            margin:auto;
+            font-size:1.1rem;
+        }
+
+        .container{
+            width:90%;
+            max-width:1000px;
+            margin:auto;
+            padding:50px 0;
+        }
+
+        h2{
+            margin-bottom:20px;
+            color:#60a5fa;
+        }
+
+        .about, .prices, .contact{
+            margin-bottom:50px;
+        }
+
+        .prices-box{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            flex:1;
+            min-width:250px;
+            background:#1e293b;
+            padding:25px;
+            border-radius:15px;
+            text-align:center;
+        }
+
+        .price{
+            font-size:2rem;
+            color:#60a5fa;
+            margin-top:10px;
+        }
+
+        .portfolio{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .video{
+            background:#1e293b;
+            padding:20px;
+            border-radius:15px;
+            text-align:center;
+        }
+
+        .contact a{
+            color:#60a5fa;
+            text-decoration:none;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#020617;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Monteur Vidéo Fortnite</h1>
+    <p>
+        Monteur vidéo spécialisé dans le contenu Fortnite sur After Effects et Premiere Pro.
+        Je réalise des montages dynamiques et de qualité.
+    </p>
+</header>
+
+<div class="container">
+
+    <section class="about">
+        <h2>À propos</h2>
+        <p>
+            Je réalise principalement des montages Fortnite pour TikTok, YouTube Shorts
+            et vidéos longues. Mon objectif est de rendre chaque vidéo plus dynamique,
+            captivante et professionnelle.
+        </p>
+    </section>
+
+    <section class="portfolio">
+        <div class="video">🎬 Projet Fortnite #1</div>
+        <div class="video">🎬 Projet Fortnite #2</div>
+        <div class="video">🎬 Projet Fortnite #3</div>
+    </section>
+
+    <section class="prices">
+        <h2>Tarifs</h2>
+        <div class="prices-box">
+            <div class="card">
+                <h3>Short</h3>
+                <div class="price">3€</div>
+            </div>
+
+            <div class="card">
+                <h3>Vidéo</h3>
+                <div class="price">5€</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Discord : TonPseudo#0000</p>
+        <p>Email : tonemail@example.com</p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 - Portfolio Montage Vidéo Fortnite
+</footer>
+
+</body>
+</html>

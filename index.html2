@@ -1,0 +1,48 @@
+```html
+<section class="hero">
+
+<div class="particles"></div>
+
+<div class="hero-content">
+
+<span class="badge">⚡ Fortnite Video Editor</span>
+
+<h1>
+Transforme tes clips en
+<span>vidéos légendaires</span>
+</h1>
+
+<p>
+Monteur vidéo spécialisé Fortnite sur Adobe Premiere Pro.
+Montages dynamiques, transitions fluides, sound design impactant
+et contenu optimisé pour TikTok, YouTube Shorts et YouTube.
+</p>
+
+<div class="hero-buttons">
+<a href="#contact" class="btn-primary">Me contacter</a>
+<a href="#portfolio" class="btn-secondary">Voir mes montages</a>
+</div>
+
+<div class="hero-stats">
+
+<div class="stat-box">
+<h3>150+</h3>
+<span>Projets</span>
+</div>
+
+<div class="stat-box">
+<h3>100%</h3>
+<span>Satisfaction</span>
+</div>
+
+<div class="stat-box">
+<h3>24h</h3>
+<span>Livraison</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+```
